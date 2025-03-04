@@ -40,3 +40,11 @@ This module is for practise . We are creating the following resource. This modul
 * is_peering_required (Optional): Default value is false. Type is bool.
 * acceptor_vpc_id (Optional): Default value is empty, default VPC ID would be taken. Type is string.
 * vpc_peering_tags (Optional): Default value is empty. Type is map.
+
+# Outputs
+* vpc_id: VPC ID
+* public_subnet_ids: A list of 2 public subnet IDS created.
+* database_subnet_ids: A list of 2 database subnet IDS created.
+* private_subnet_ids: A list of 2 private subnet IDS created.
+* database_subnet_group_id: A database subnet group ID created.
+* igw_id: internte gateway created.
